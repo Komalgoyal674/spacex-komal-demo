@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import SideNavigation from './SideNavigation';
+import SiteNavigation from './SiteNavigation';
 
 test('renders learn react link', () => {
-  render(<SideNavigation />);
+  render(<SiteNavigation />);
 });
