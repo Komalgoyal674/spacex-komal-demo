@@ -9,7 +9,7 @@ const Rockets: React.FC = () => {
             <div className="single-rocket-content">
               <p className="rocket-title">Falcon 9</p>
               <div className="rocket-status">
-                <img src="https://farm4.staticflickr.com/3955/32915197674_eee74d81bb_b.jpg" />
+                <img src="https://farm4.staticflickr.com/3955/32915197674_eee74d81bb_b.jpg" alt="" />
               </div>
               <div className="rocket-image">Status: Active</div>
             </div>
@@ -18,7 +18,7 @@ const Rockets: React.FC = () => {
             <div className="single-rocket-content">
               <p className="rocket-title">Falcon 9</p>
               <div className="rocket-status">
-                <img src="https://farm5.staticflickr.com/4645/38583830575_3f0f7215e6_b.jpg" />
+                <img src="https://farm5.staticflickr.com/4645/38583830575_3f0f7215e6_b.jpg" alt="" />
               </div>
               <div className="rocket-image">Status: Active</div>
             </div>
@@ -27,7 +27,7 @@ const Rockets: React.FC = () => {
             <div className="single-rocket-content">
               <p className="rocket-title">Falcon 9</p>
               <div className="rocket-status">
-                <img src="https://live.staticflickr.com/65535/48953946911_e60c5bcc5c_b.jpg" />
+                <img src="https://live.staticflickr.com/65535/48953946911_e60c5bcc5c_b.jpg" alt="" />
               </div>
               <div className="rocket-image">Status: Active</div>
             </div>

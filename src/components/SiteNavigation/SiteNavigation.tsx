@@ -16,11 +16,11 @@ const SiteNavigation: React.FC = () => {
       <nav className='site-navigation-links-section'>
         <ul className='site-navigation-links-list'>
           <li className='dashboard-link'>
-            <Link className={`${location?.pathname as unknown as string == '/' ? 'active-link' : ''}`} to={"/"}>Dashboard
+            <Link className={`${location?.pathname as unknown as string === '/' ? 'active-link' : ''}`} to={"/"}>Dashboard
             </Link>
           </li>
           <li className='rockets-link'>
-            <Link className={`${location?.pathname as unknown as string == '/rockets' ? 'active-link' : ''}`} to={"/rockets"}>Rockets
+            <Link className={`${location?.pathname as unknown as string === '/rockets' ? 'active-link' : ''}`} to={"/rockets"}>Rockets
 
             </Link>
           </li>
