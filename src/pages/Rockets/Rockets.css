@@ -1,3 +1,13 @@
 .rockets-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.single-rocket-content-tile {
+  display: inline-block;
+  width: 30%;
   color: white;
+}
+.rocket-status img {
+  width: 200px;
 }
