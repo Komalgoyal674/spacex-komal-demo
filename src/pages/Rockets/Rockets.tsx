@@ -4,7 +4,6 @@ import "./Rockets.css";
 const Rockets: React.FC = () => {
   return (
     <Layout>
-      {/* <div className="rockets-content-wrapper"> */}
         <div className="rockets-content">
           <div className="single-rocket-content-tile">
             <div className="single-rocket-content">
@@ -34,7 +33,6 @@ const Rockets: React.FC = () => {
             </div>
           </div>
         </div>
-      {/* </div> */}
     </Layout>
   );
 };

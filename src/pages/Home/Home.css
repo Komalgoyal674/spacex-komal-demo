@@ -1,0 +1,59 @@
+.home-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.single-home-content-tile {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  padding: 15px;
+}
+.home-status img {
+  width: 200px;
+}
+.home-rocket-details-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.home-rocket-details-description,
+.home-rocket-details-img {
+  width: 49%;
+}
+.home-rocket-details-wrapper p {
+  font-size: smaller;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-rocket-details-wrapper h4 {
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.launch-facility-content-bottom-row {
+  width: 30%;
+  display: inline-block;
+}
+.launch-facility-content-top-row {
+  width: 45%;
+  display: inline-block;
+}
+.launch-facility-wrapper p {
+  font-size: smaller;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.launch-facility-wrapper h4 {
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.launch-facility-wrapper {
+  margin-top: 29px;
+}
